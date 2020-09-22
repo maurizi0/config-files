@@ -1,0 +1,38 @@
+# like .profile but sourcable from all shells
+
+# some more ls aliases
+alias ll='ls -alFh --time-style=long-iso'
+alias la='ls -Ah'
+alias l='ls -CFh'
+alias ..='cd ..'
+alias ...='cd ../../'
+
+# calc always floating point
+alias bc='bc -l'
+
+# Get calendar week
+alias kw='date +%V'
+
+# prompt before owerwrite
+alias rm='rm -i'
+alias mv='mv -i'
+alias cp='cp -i'
+
+# color
+alias grep='grep --color=auto'
+alias ip='ip -c'
+
+# copy to correct clipboard
+alias xclip='xclip -selection clipboard'
+
+# remove colors from stdin
+alias rmcolors='sed -r "s/\x1B\[([0-9]{1,2}(;[0-9]{1,2})?)?[m|K]//g"'
+
+# shorter xdg-open
+alias open='xdg-open'
+
+# testssl with all options for report writer
+alias testssl="testssl -E -U -S -P -p -s -f"
+
+# FZF style
+export FZF_DEFAULT_OPTS='--height 30% --layout=reverse --info=hidden --color fg:15,bg:-1,bg+:-1,fg+:10,fg+:10,pointer:10,hl:-1,hl+:10'
