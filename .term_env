@@ -31,8 +31,5 @@ alias rmcolors='sed -r "s/\x1B\[([0-9]{1,2}(;[0-9]{1,2})?)?[m|K]//g"'
 # shorter xdg-open
 alias open='xdg-open'
 
-# testssl with all options for report writer
-alias testssl="testssl -E -U -S -P -p -s -f"
-
 # FZF style
 export FZF_DEFAULT_OPTS='--height 30% --layout=reverse --info=hidden --color fg:15,bg:-1,bg+:-1,fg+:10,fg+:10,pointer:10,hl:-1,hl+:10'
