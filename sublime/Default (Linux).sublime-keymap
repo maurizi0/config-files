@@ -1,0 +1,6 @@
+[
+	// used to delete current line
+	{ "keys": ["ctrl+d"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Delete Line.sublime-macro"} },
+	// Toggle comment
+	{ "keys": ["ctrl+shift+7"], "command": "toggle_comment", "args": { "block": false } },
+]
