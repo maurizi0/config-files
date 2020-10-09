@@ -16,7 +16,7 @@ _fishy_collapsed_wd() {
 }
 
 local user_color='blue'; [ $UID -eq 0 ] && user_color='red'
-PROMPT='%n@%m%{$fg[$user_color]%}$(_fishy_collapsed_wd)%{$reset_color%}$(git_prompt_info)$(git_prompt_status)%{$reset_color%}%(!.#.>) '
+PROMPT='%n@%m%{$fg[$user_color]%} $(_fishy_collapsed_wd)%{$reset_color%}$(git_prompt_info)$(git_prompt_status)%{$reset_color%}%(!.#.>) '
 PROMPT2='%{$fg[red]%}\ %{$reset_color%}'
 
 # local return_status="%{$fg_bold[red]%}%(?..%?)%{$reset_color%}"
