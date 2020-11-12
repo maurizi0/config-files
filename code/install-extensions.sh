@@ -6,4 +6,4 @@ code --install-extension streetsidesoftware.code-spell-checker &&
 code --install-extension streetsidesoftware.code-spell-checker-german && 
 code --install-extension tomoki1207.pdf && 
 code --install-extension torn4dom4n.latex-support && 
-echo SCCESS
+echo SUCCESS
