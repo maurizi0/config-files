@@ -1,0 +1,20 @@
+{
+    "window.zoomLevel": 0,
+    "terminal.integrated.fontFamily": "Ubuntu Mono derivative Powerline",
+    "terminal.integrated.fontSize": 16,
+    "editor.wordWrap": "on",
+    "extensions.ignoreRecommendations": false,
+    "glassit.alpha": 254,
+    "spellright.language": [
+        "en-US",
+        "de-DE"
+    ],
+    "spellright.documentTypes": [
+        "markdown",
+        "latex",
+        "plaintext"
+    ],
+    "latex-workshop.latex.build.clearLog.everyRecipeStep.enabled": false,
+    "latex-workshop.latex.autoBuild.run": "never",
+    "latex-workshop.latex.external.build.command": "/home/mauri/.scripts/box/build-work-report.sh"
+}
