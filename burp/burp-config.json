@@ -208,7 +208,7 @@
                 },
                 {
                     "boolean_operator":"and",
-                    "enabled":true,
+                    "enabled":false,
                     "match_relationship":"is_in_target_scope",
                     "match_type":"url"
                 }
