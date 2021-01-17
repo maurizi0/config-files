@@ -259,8 +259,8 @@
             ]
         },
         "intercept_web_sockets_messages":{
-            "client_to_server_messages":true,
-            "server_to_client_messages":true
+            "client_to_server_messages":false,
+            "server_to_client_messages":false
         },
         "match_replace_rules":[
             {
